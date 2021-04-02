@@ -1,0 +1,26 @@
+add_building flipkart
+add_floor first flipkart
+add_floor second flipkart
+add_floor third flipkart
+add_confroom first flipkart c1 
+add_confroom third flipkart c1
+add_confroom first flipkart c2 
+add_confroom third flipkart ch
+add_confroom second flipkart c1 
+add_confroom second flipkart cgg
+book first flipkart c1 user 1 5
+book second flipkart c1 user 1 5
+book third flipkart c1 user 1 5
+book third flipkart c1 user 1 5
+cancel 1 5 flipkart third c1
+book third flipkart c1 user 1 2
+
+book third flipkart c1 user 2 3
+
+book third flipkart c1 user 3 4
+
+book first flipkart c1 user 1 2
+book first flipkart c1 user 3 4
+book first flipkart c1 user 2 3
+search 1 2 flipkart first
+
